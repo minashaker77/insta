@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:mini_insta/explore_screen.dart';
 import 'package:mini_insta/saved_screen.dart';
 
 class MainPage extends StatefulWidget {
@@ -14,7 +15,7 @@ class _MainPageState extends State<MainPage> {
   List<Widget> pageList = const [
     SavedScreen(),
     SavedScreen(),
-    SavedScreen(),
+    ExploreScreen(),
     SavedScreen(),
     SavedScreen(),
   ];
