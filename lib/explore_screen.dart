@@ -20,6 +20,7 @@ class _ExploreScreenState extends State<ExploreScreen> {
     'https://upload.wikimedia.org/wikipedia/commons/9/9a/Gull_portrait_ca_usa.jpg',
     'https://tinypng.com/images/social/website.jpg',
   ];
+
   @override
   Widget build(BuildContext context) {
     return SafeArea(
